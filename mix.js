@@ -19,7 +19,7 @@ module.exports = function (color1, color2, weight, space) {
 	color1.green(color1.green() * weight1 + color2.green() * weight2);
 	color1.blue(color1.blue() * weight1 + color2.blue() * weight2);
 
-	color1.alpha(color1.alpha() * weight + color2.alpha() * (1 - weight);
+	color1.alpha(color1.alpha() * weight + color2.alpha() * (1 - weight));
 
 	return color1;
 };

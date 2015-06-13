@@ -13,5 +13,6 @@ module.exports = {
 	fadeout: require('./fadeout'),
 	invert: require('./invert'),
 	grayscale: require('./grayscale'),
+	spin: require('./spin'),
 	mix: require('./mix')
 };

@@ -1,21 +1,21 @@
 # color-manipulate [![Build Status](https://travis-ci.org/dfcreative/color-manipulate.svg?branch=master)](https://travis-ci.org/dfcreative/color-manipulate) [![Code Climate](https://codeclimate.com/github/dfcreative/color-manipulate/badges/gpa.svg)](https://codeclimate.com/github/dfcreative/color-manipulate)
 
-A collection of color manipulation and measurement functions.
+A collection of color manipulation functions.
 
 `$ npm install color-manipulate`
 
 ```js
 	var mix = require('color-manipulate/mix');
-	mix(colorA, colorB, .5); //[127,127,127]
+	mix(colorA, colorB, .5);
 ```
 
 ### Supported color libs
 
-* [x] [color](https://npmjs.org/package/color)
-* [x] [color2](https://npmjs.org/package/color2)
-* [x] [jquery-color](https://github.com/jquery/jquery-color)
-* [x] [sumi-color](https://npmjs.org/package/sumi-color)
-* [x] [onecolor](https://npmjs.org/package/onecolor)
+* [color](https://npmjs.org/package/color)
+* [color2](https://npmjs.org/package/color2)
+* [jquery-color](https://github.com/jquery/jquery-color)
+* [sumi-color](https://npmjs.org/package/sumi-color)
+* [onecolor](https://npmjs.org/package/onecolor)
 * [suggest color lib](http://github.com/dfcreative/color-manipulate/issues/new/)
 
 
@@ -28,8 +28,8 @@ A collection of color manipulation and measurement functions.
 * **whiten(color, ratio)** (aka _tint_) — mix to white.
 * **blacken(color, ratio)** (aka _shade_) — mix to black.
 * **grayscale(color, ratio)** — convert color to gray.
-* **fadein(color, ratio)** (aka _clearer_, _transparentize_) —
-* **fadeout(color, ratio)** (aka _opaquer_, _opacify_) —
+* **fadeout(color, ratio)** (aka _clearer_, _transparentize_) —
+* **fadein(color, ratio)** (aka _opaquer_, _opacify_) —
 * **spin(color, ratio)** (aka _rotate_) —
 * **invert(color, ratio)** (aka _negate_) —
 * **mix(color1, color2, ratio)** (aka _blend_) —

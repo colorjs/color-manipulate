@@ -4,9 +4,12 @@
   "description": "Collection of color manipulation functions",
   "main": "index.js",
   "dependencies": {
-    "chai": "^3.0.0"
+    "chai": "^3.0.0",
+    "mumath": "^1.0.2"
   },
   "devDependencies": {
+    "chai": "^3.0.0",
+    "color": "^0.8.0",
     "mocha": "^2.2.5"
   },
   "scripts": {
