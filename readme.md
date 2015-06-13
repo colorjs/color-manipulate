@@ -9,15 +9,6 @@ var mix = require('color-manipulate/mix');
 mix(colorA, colorB, .5);
 ```
 
-### Supported color libs
-
-* **[color](https://npmjs.org/package/color)**
-* **[color2](https://npmjs.org/package/color2)**
-* **[jquery-color](https://github.com/jquery/jquery-color)**
-* **[sumi-color](https://npmjs.org/package/sumi-color)**
-* **[onecolor](https://npmjs.org/package/onecolor)**
-
-
 ### Manipulations
 
 * **lighten(color, ratio)** — increase color lightness by ratio.
@@ -32,6 +23,15 @@ mix(colorA, colorB, .5);
 * **spin(color, degrees)** (aka _rotate_) — rotate hue by _degrees_.
 * **invert(color, ratio)** (aka _negate_) — invert color.
 * **mix(color1, color2, ratio)** (aka _blend_) — mix second color to the first color.
+
+
+### Supported color libs
+
+* **[color](https://npmjs.org/package/color)**
+* **[color2](https://npmjs.org/package/color2)**
+* **[jquery-color](https://github.com/jquery/jquery-color)**
+* **[sumi-color](https://npmjs.org/package/sumi-color)**
+* **[onecolor](https://npmjs.org/package/onecolor)**
 
 
 ## Related
