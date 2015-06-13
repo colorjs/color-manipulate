@@ -1,0 +1,31 @@
+{
+  "name": "color-manipulate",
+  "version": "1.0.0",
+  "description": "Collection of color manipulation functions",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dfcreative/color-manipulate"
+  },
+  "keywords": [
+    "color",
+    "manipulate",
+    "hsl",
+    "rgb"
+  ],
+  "author": "Deema Ywanov <df.creative@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dfcreative/color-manipulate/issues"
+  },
+  "homepage": "https://github.com/dfcreative/color-manipulate"
+}
