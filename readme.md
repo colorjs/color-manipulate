@@ -5,17 +5,17 @@ A collection of color manipulation functions.
 `$ npm install color-manipulate`
 
 ```js
-	var mix = require('color-manipulate/mix');
-	mix(colorA, colorB, .5);
+var mix = require('color-manipulate/mix');
+mix(colorA, colorB, .5);
 ```
 
 ### Supported color libs
 
-* [color](https://npmjs.org/package/color)
-* [color2](https://npmjs.org/package/color2)
-* [jquery-color](https://github.com/jquery/jquery-color)
-* [sumi-color](https://npmjs.org/package/sumi-color)
-* [onecolor](https://npmjs.org/package/onecolor)
+* **[color](https://npmjs.org/package/color)**
+* **[color2](https://npmjs.org/package/color2)**
+* **[jquery-color](https://github.com/jquery/jquery-color)**
+* **[sumi-color](https://npmjs.org/package/sumi-color)**
+* **[onecolor](https://npmjs.org/package/onecolor)**
 * [suggest color lib](http://github.com/dfcreative/color-manipulate/issues/new/)
 
 
@@ -38,8 +38,10 @@ A collection of color manipulation functions.
 
 ## Related
 
-* [color-measure](http://npmjs.org/package/color-measure) — a collection of color measures.
-* [color-blend](http://npmjs.org/package/color-blend) — a collection of color blending functions.
+* **[color-measure](http://npmjs.org/package/color-measure)** — a collection of color measures.
+* **[color-blend](http://npmjs.org/package/color-blend)** — a collection of color blending functions.
+* **[color-space](http://npmjs.org/package/color-space)** — a collection of color spaces and conversions between them.
+* **[color](http://npmjs.org/package/color2)** — color class, exposing these libs as an API.
 
 
 
