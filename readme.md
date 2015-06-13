@@ -16,7 +16,6 @@ mix(colorA, colorB, .5);
 * **[jquery-color](https://github.com/jquery/jquery-color)**
 * **[sumi-color](https://npmjs.org/package/sumi-color)**
 * **[onecolor](https://npmjs.org/package/onecolor)**
-* [suggest color lib](http://github.com/dfcreative/color-manipulate/issues/new/)
 
 
 ### Manipulations
@@ -28,12 +27,11 @@ mix(colorA, colorB, .5);
 * **whiten(color, ratio)** (aka _tint_) — mix to white.
 * **blacken(color, ratio)** (aka _shade_) — mix to black.
 * **grayscale(color, ratio)** — convert color to gray.
-* **fadeout(color, ratio)** (aka _clearer_, _transparentize_) —
-* **fadein(color, ratio)** (aka _opaquer_, _opacify_) —
-* **spin(color, ratio)** (aka _rotate_) —
-* **invert(color, ratio)** (aka _negate_) —
-* **mix(color1, color2, ratio)** (aka _blend_) —
-* [suggest manipulation](http://github.com/dfcreative/color-manipulate/issues/new/)
+* **fadeout(color, ratio)** (aka _clearer_, _transparentize_) — increase transparency.
+* **fadein(color, ratio)** (aka _opaquer_, _opacify_) — decrease transparency.
+* **spin(color, degrees)** (aka _rotate_) — rotate hue by _degrees_.
+* **invert(color, ratio)** (aka _negate_) — invert color.
+* **mix(color1, color2, ratio)** (aka _blend_) — mix second color to the first color.
 
 
 ## Related
@@ -43,6 +41,10 @@ mix(colorA, colorB, .5);
 * **[color-space](http://npmjs.org/package/color-space)** — a collection of color spaces and conversions between them.
 * **[color](http://npmjs.org/package/color2)** — color class, exposing these libs as an API.
 
+
+## Contribute
+
+Suggest color library, manipulation or tell about the library using color-manipulate.
 
 
 [![NPM](https://nodei.co/npm/color-manipulate.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/color-manipulate/)
