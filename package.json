@@ -5,12 +5,12 @@
   "main": "index.js",
   "dependencies": {
     "chai": "^3.0.0",
-    "mumath": "^1.0.2"
+    "mumath": "^3.3.4"
   },
   "devDependencies": {
     "chai": "^3.0.0",
-    "color": "^0.8.0",
-    "mocha": "^2.2.5"
+    "color": "^1.0.3",
+    "mocha": "^3.2.0"
   },
   "scripts": {
     "test": "mocha"
