@@ -1,5 +1,7 @@
 # color-manipulate [![Build Status](https://travis-ci.org/dfcreative/color-manipulate.svg?branch=master)](https://travis-ci.org/dfcreative/color-manipulate) [![Code Climate](https://codeclimate.com/github/dfcreative/color-manipulate/badges/gpa.svg)](https://codeclimate.com/github/dfcreative/color-manipulate)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/colorjs/color-manipulate.svg)](https://greenkeeper.io/)
+
 A collection of color manipulation functions.
 
 `$ npm install color-manipulate`
