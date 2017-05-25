@@ -12,7 +12,7 @@ mix(colorA, colorB, .5);
 ### Manipulations
 
 * **lighten(color, ratio)** — increase color lightness by ratio.
-* **draken(color, ratio)** — decrease color lightness by ratio.
+* **darken(color, ratio)** — decrease color lightness by ratio.
 * **saturate(color, ratio)** — saturate color by ratio.
 * **desaturate(color, ratio)** — decrease saturation by ratio.
 * **whiten(color, ratio)** (aka _tint_) — mix to white.
